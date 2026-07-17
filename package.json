@@ -1,0 +1,12 @@
+{
+  "name": "kev-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "echo 'no build needed for static site'",
+    "start": "npx serve -s . -l ${PORT:-8080}"
+  },
+  "dependencies": {
+    "serve": "^14.2.1"
+  }
+}
