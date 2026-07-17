@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kev | Portfolio</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="logo">Kev</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header id="home" class="hero">
+    <div class="hero-content">
+      <h1>Hi, I'm <span>Kev</span></h1>
+      <p>Final-Year CSE (Cyber Security) Student &mdash; Building explainable AI &amp; cloud security systems</p>
+      <a href="#projects" class="btn">View My Work</a>
+    </div>
+  </header>
+
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>
+      I'm a final-year Computer Science and Engineering student specializing in Cyber Security,
+      with a focus on the intersection of artificial intelligence, digital forensics, and cloud
+      security. I enjoy building complete systems end-to-end — from research and model design
+      to functional implementation and formal documentation.
+    </p>
+  </section>
+
+  <section id="projects" class="section alt">
+    <h2>Projects</h2>
+    <div class="project-grid">
+
+      <div class="project-card">
+        <h3>ForeXAI</h3>
+        <p>
+          A Deep Neural Network combined with dual SHAP and LIME explainability for insider
+          threat detection, trained on the CERT Insider Threat Dataset. Structured as a
+          four-layer pipeline: Data, Model, Explainability, and Output, with automated
+          forensic report generation.
+        </p>
+      </div>
+
+      <div class="project-card">
+        <h3>CloudChain</h3>
+        <p>
+          An LSTM-based explainable deep learning system for multi-stage insider threat
+          detection using AWS CloudTrail logs, incorporating MITRE ATT&amp;CK kill chain
+          sequencing and SHAP-driven forensic reporting.
+        </p>
+      </div>
+
+      <div class="project-card">
+        <h3>WELA</h3>
+        <p>
+          Windows Event Log Analyzer &mdash; a tool for parsing raw <code>.evtx</code> binary
+          logs, applying rule-based threat detection with weighted risk scoring, and presenting
+          results through a CustomTkinter interface.
+        </p>
+      </div>
+
+      <div class="project-card">
+        <h3>Ransomware Detection Tool</h3>
+        <p>
+          A Python-based detection system using Shannon entropy analysis, live file and process
+          monitoring, a Tkinter dashboard with real-time graphs, automatic backup, and email
+          alerting &mdash; compiled into a standalone executable.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <span>Python</span>
+      <span>Cloud Security</span>
+      <span>Machine Learning</span>
+      <span>Digital Forensics</span>
+      <span>Microsoft Azure</span>
+      <span>AWS</span>
+      <span>SHAP / LIME</span>
+      <span>Cybersecurity</span>
+    </div>
+  </section>
+
+  <section id="contact" class="section alt">
+    <h2>Contact</h2>
+    <p>Interested in my work or want to collaborate? Reach out below.</p>
+    <a href="mailto:you@example.com" class="btn">Email Me</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Kev. Hosted on Microsoft Azure App Service.</p>
+  </footer>
+
+</body>
+</html>
